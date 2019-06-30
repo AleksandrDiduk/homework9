@@ -1,0 +1,291 @@
+:root {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia";
+    color: #9b9b9b; 
+    background-color: #202020; 
+}
+.container {
+    width: 940px; 
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url(../img/Header-BG.png) no-repeat center top / cover;
+    padding: 50px 0 320px 0;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.head-menu_wright {
+    margin-left: auto;
+}
+
+.portfolio {
+    margin-top: -266px
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 100px;
+    background-color: black; 
+}
+
+.prev {
+    left: 36px;
+}
+
+.next {
+    right: 36px;
+}
+
+.pagination {
+	text-align: center;
+}
+.slider_button_1 {
+	background-color: white;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 50%;
+	width: 7px;
+	height: 7px;
+	padding: 0;
+}
+
+.head-menu-item:not(:last-child) {
+    margin-right: 15px;
+}
+
+.head-menu-item-text {
+    margin-right: 15px; 
+}
+
+h2 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.info-text {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.info-text-1 {
+    font-size: 14px;   
+}
+
+.info {
+    width: 275px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.foto {
+    background: url(../img/Portfolio-BG.png) no-repeat center top / cover;
+    margin-top: 75px;
+}
+
+.foto-gallery {
+    padding-top: 77px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.foto-gallery1 {
+    width: 462px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+} 
+.foto-gallery1-1 {
+    margin-bottom: 20px;
+}
+
+.contacts_block {
+	padding-top: 70px;
+	padding-bottom: 60px;
+	background-color: #202020;
+}
+
+.contacts_block .container {
+	clear: both;
+	overflow: auto;
+}
+
+.contacts_block .contacts_form {
+	float: left;
+	width: 51%;
+	padding-right: 22px;
+	box-sizing: border-box;
+}
+
+.contacts_input_icon {
+	position: absolute;
+	width: 39px;
+	height: 39px;
+	margin: auto;
+    left: 0;
+    top: 4px;
+    bottom: 0;
+	background-repeat: no-repeat; 
+}
+
+.name_icon {
+	background-image: url(../icon/name.png);
+}
+
+.email_icon {
+	background-image: url(../icon/email.png);
+}
+
+.web_icon {
+	background-image: url(../icon/web.png);
+}
+
+.contacts_block .contacts_description {
+	float: right;
+	width: 49%;
+}
+
+input {
+	display: block;
+	width: 100%;
+	min-height: 50px;
+	background-color: rgb(40, 40, 40); 
+	font-size: 15px;
+	font-family: "Georgia";
+	color: rgb(135, 135, 135);
+	font-style: italic;
+	line-height: 1.375;
+	text-align: left;
+	padding-left: 40px;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.input_container {
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	min-height: 160px;
+	background-color: rgb(40, 40, 40); 
+	font-size: 15px;
+	font-family: "Georgia";
+	color: rgb(135, 135, 135);
+	font-style: italic;
+	line-height: 1.375;
+	text-align: left;
+	border: none;
+	outline: none;
+	resize: none;
+	margin-bottom: 30px;
+}
+
+.submit-text {
+	width: 125px;
+	height: 45px;
+	color: rgb(135, 135, 135);
+	font-size: 18px;
+    font-family: "Georgia";
+    background-color: rgb(40, 40, 40);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(32, 32, 32);
+}
+
+.author {
+	position: relative;
+	font-size: 15px;
+	font-family: "Georgia";
+	color: rgb(155, 155, 155);
+	line-height: 1.571;
+	text-align: left; 
+}
+
+.author_foto {
+	float: left;
+	margin-right: 15px;
+    margin-bottom: 45px;
+}
+
+.about_me {
+	display: inline; 
+	width: 275px;	
+}
+
+.contact {
+	clear: both;
+}
+
+footer {
+position: relative; 
+	background-color: #202020;
+	color: rgb(155, 155, 155);
+}
+
+footer .icons {
+	float: right;
+}
+
+footer .container {
+	border-top: solid; 
+	padding-top: 40px;
+    padding-bottom: 58px;
+	font-size: 14px;
+}
+
